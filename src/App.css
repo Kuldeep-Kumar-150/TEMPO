@@ -25,6 +25,9 @@ body {
 .fs_sm {
   font-size: var(--fs-sm);
 }
+.fs_2sm {
+  font-size: var(--fs-2sm);
+}
 
 .fs_md {
   font-size: var(--fs-md);
