@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap');
+
+* {
+  list-style-type: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --fs-xsm: 20px;
+  --fs-sm: 22px;
+  --fs-md: 49px;
+  --fs-lg: 60px;
+}
+
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+
+.fs_md {
+  font-size: var(--fs-md);
+}
+
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+
+.ff_highspeed {
+  font-family: "High Speed" !important;
+}
+
+@font-face {
+  font-family: "High Speed";
+  src: url("./assets/font/high_speed_3/High\ Speed.otf");
+}
+
+.ff_magra {
+  font-family: "Magra";
 }
