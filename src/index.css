@@ -8,8 +8,8 @@
 
 :root {
   --fs-xsm: 20px;
-  --fs-sm: 22px;
-  --fs-md: 49px;
+  --fs-sm: 16px;
+  --fs-md: 35px;
   --fs-lg: 60px;
 }
 
@@ -40,4 +40,121 @@
 
 .ff_magra {
   font-family: "Magra";
+}
+
+.mine_now_btn_img {
+  left: -10px;
+  top: 0;
+  z-index: -1;
+}
+
+.crusor_pointer {
+  cursor: pointer !important;
+}
+
+.video_icon {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease-in-out;
+}
+
+.video_icon:hover {
+  width: 105px;
+}
+
+.our_nft_cards {
+  border-radius: 51.3939px;
+  height: 490px;
+  border: 9.28px solid transparent;
+  background: linear-gradient(black, black) padding-box, linear-gradient(90.44deg, #FBF4B7 -6.5%, #31CDE2 24.17%, #5276FF 57.63%, #D874FF 96.66%) border-box;
+}
+
+.our_nft_img_1 {
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  bottom: 5%;
+}
+
+.our_nft_img_2 {
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  bottom: 5%;
+}
+
+.our_nft_img_3 {
+  width: 100%;
+  left: 50%;
+  height: 531px;
+  transform: translate(-50%, 0%);
+  bottom: 5%;
+}
+
+.slick-list {
+  overflow: visible !important;
+}
+
+.slick-slide.slick-center div {
+  transform: translateY(-10px) !important;
+  height: 520px !important;
+}
+
+.slick-slide.slick-center div img {
+  transform: translate(-50%, -10%) !important;
+  height: 530px !important;
+}
+
+@media (min-width:576px) {
+  :root {
+    --fs-xsm: 20px;
+    --fs-sm: 22px;
+    --fs-md: 49px;
+    --fs-lg: 60px;
+  }
+}
+
+@media (min-width:992px) {
+  :root {
+    --fs-xsm: 20px;
+    --fs-sm: 18px;
+    --fs-md: 49px;
+    --fs-lg: 60px;
+  }
+}
+
+@media (min-width:1200px) {
+  :root {
+    --fs-xsm: 20px;
+    --fs-sm: 22px;
+    --fs-md: 49px;
+    --fs-lg: 60px;
+  }
+}
+
+@media (min-width:1400px) {
+  .our_nft_img_1 {
+    width: 100%;
+    left: 50%;
+    height: 100%;
+    transform: translate(-50%, 0%);
+    bottom: 10%;
+  }
+
+  .our_nft_img_2 {
+    width: 100%;
+    left: 50%;
+    height: 100%;
+    transform: translate(-50%, 0%);
+    bottom: 10%;
+  }
+
+  .our_nft_img_3 {
+    width: 100%;
+    left: 50%;
+    height: 531px;
+    transform: translate(-50%, 0%);
+    bottom: 10%;
+  }
 }
