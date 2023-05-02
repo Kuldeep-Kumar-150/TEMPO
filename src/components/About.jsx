@@ -8,7 +8,7 @@ const About = () => {
             <Container>
                 <Row className='flex-column-reverse text-center text-lg-start flex-lg-row align-items-center'>
                     <Col lg={6}>
-                        <h3 className='ff_highspeed text-white fs_md fw-normal mb-1 mt-4 mt-sm-5 mt-lg-0'>About</h3>
+                        <h3 className='ff_highspeed text-white fs_md fw-normal mb-1 mt-4 mt-sm-5 mt-lg-0 bg-transparent'>About</h3>
                         <p className='text-white fs_sm fw-normal ff_magra'>Facilisi nec at ullamcorper consequat venenatis
                             cursus sagittis. Aliquet venenatis, urna egestas elementum ultricies convallis amet. Cursus sed porta
                             imperdiet tellus lorem nam leo. Sollicitudin risus suspendisse urna sed arcu sit. Ullamcorper diam nulla

@@ -10,7 +10,7 @@
   --fs-xsm: 20px;
   --fs-sm: 16px;
   --fs-md: 35px;
-  --fs-lg: 60px;
+  --fs-lg: 22px;
 }
 
 .fs_xsm {
@@ -57,6 +57,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
   transition: 0.3s ease-in-out;
+  width: 10%;
 }
 
 .video_icon:hover {

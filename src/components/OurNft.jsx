@@ -45,7 +45,7 @@ const OurNft = () => {
         ]
     };
     return (
-        <section className=''>
+        <section className='py-5 mt-5 mt-sm-0 py-sm-3'>
             <Container className='overflow-hidden'>
                 <h5 className='text-white text-center fs_md fw-normal ff_highspeed pb-4'>our nft</h5>
                 <Row className=' align-items-end py-5 '>
