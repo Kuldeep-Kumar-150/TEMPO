@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import HeroSection from "./components/HeroSection";
 import Story from "./components/Story";
+import Team from "./components/Team";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <HeroSection />
       </div>
       <Story />
+      <Team />
     </>
   );
 }

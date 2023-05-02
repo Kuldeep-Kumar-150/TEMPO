@@ -13,6 +13,7 @@ body {
 :root {
   --fs-xsm: 20px;
   --fs-sm: 22px;
+  --fs-2sm: 26px;
   --fs-md: 49px;
   --fs-lg: 60px;
 }
@@ -209,10 +210,34 @@ body {
   border-radius: 50%;
   width: 200px;
 }
-h3 {
-  background-color: #31f4f4;
-}
+.cardBox {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0px 18.6028px 73.5254px rgba(134, 39, 255, 0.5);
+  backdrop-filter: blur(8.83492px);
+  border: 2.66px solid transparent;
 
+  background: linear-gradient(
+        90.44deg,
+        #fbf4b7 -6.5%,
+        #31cde2 24.17%,
+        #5276ff 57.63%,
+        #d874ff 96.66%
+      )
+      padding-box,
+    linear-gradient(
+        90.44deg,
+        #fbf4b7 -6.5%,
+        #31cde2 24.17%,
+        #5276ff 57.63%,
+        #d874ff 96.66%
+      )
+      border-box;
+
+  border-radius: 21.2603px;
+}
+.transform_x_50 {
+  transform: translateX(-50%);
+}
 /* media screen */
 @media (min-width: 768px) {
   .w_md_168 {
