@@ -7,7 +7,7 @@ const Story = () => {
   return (
     <div
       id="down"
-      className="position-relative overflow-hidden z_3 py-4 py-lg-5"
+      className="position-relative overflow-hidden z_3 py-4 py-lg-5 mt-4"
     >
       <img
         className="position-absolute bottom-0 start-0 w_6 zn_1"
