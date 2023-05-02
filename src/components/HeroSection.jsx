@@ -6,7 +6,7 @@ import downBtn from "../assets/img/svg/downBtn.svg";
 
 const HeroSection = () => {
   return (
-    <div className="py-4 py-lg-5 position-relative d-flex flex-column align-items-center justify-content-center flex-grow-1">
+    <div className="py-4 py-lg-5 position-relative z_4 d-flex flex-column align-items-center justify-content-center flex-grow-1">
       <Container>
         <h1 className="mb-0 fs_lg fw-normal text-white ff_highspeed text-center mt-3 text-sm-start">
           Ornare orn{" "}
@@ -44,7 +44,7 @@ const HeroSection = () => {
           />
         </a>
       </Container>
-      <div className="bg_black py-5"></div>
+      <div className="bg_black position-absolute bottom_2 start-0 zn_1 w-100"></div>
     </div>
   );
 };
