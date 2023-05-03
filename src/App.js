@@ -14,6 +14,8 @@ import Faqs from "./components/Faqs";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import PreLoader from "./components/PreLoader";
+import BackToTop from "./components/BackToTop";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -24,6 +26,8 @@ function App() {
   }, [])
   return (
     <>
+      <PreLoader />
+      <BackToTop/>
       <div className="BgImage d-flex flex-column vh_xl_100">
         <MyNav />
         <HeroSection />

@@ -457,7 +457,28 @@
   left: 0;
 }
 
+.backtotop_btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 30 !important;
+  animation: backtotop_btn linear infinite 2s;
+}
 
+.preloader {
+  z-index: 20 !important;
+  animation: preloader 4s linear infinite;
+}
+@keyframes backtotop_btn {
+  50%{
+    transform: translateY(-15px);
+  }
+}
+@keyframes preloader {
+  50% {
+    transform: scale(1.3);
+  }
+}
 
 
 
