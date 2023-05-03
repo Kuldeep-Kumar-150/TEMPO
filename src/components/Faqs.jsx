@@ -13,8 +13,8 @@ const Faqs = () => {
             <Container>
                 <h5 className='text-white text-center ff_highspeed fw-normal fs_md pt-xl-5'>faqs</h5>
                 <div className="footer_position_box position-absolute zn_1"></div>
-                <img className='footer_positions_circle position-absolute w_6 zn_1' src={footerCircleImg} alt="footerCircleImg" />
-                <img className='footer_positions_circle position-absolute w_6 zn_1' src={footerCircleImg2} alt="footerCircleImg" />
+                {/* <img className='footer_positions_circle position-absolute w_6 zn_1' src={footerCircleImg} alt="footerCircleImg" /> */}
+                <img className='footer_positions_circle_3 position-absolute w_6 zn_1' src={footerCircleImg2} alt="footerCircleImg" />
                 <Accordion defaultActiveKey="0" className='mt-5'>
                     <Accordion.Item eventKey="0" className='py-2'>
                         <Accordion.Header className="ps-sm-3">
