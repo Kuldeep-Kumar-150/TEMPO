@@ -301,7 +301,7 @@
 .prev_btn {
   position: absolute;
   left: 30px;
-  top: 50%;
+  top: 55%;
   cursor: pointer;
   z-index: 10 !important;
 }
@@ -309,7 +309,7 @@
 .next_btn {
   position: absolute;
   right: 30px;
-  top: 50%;
+  top: 55%;
   cursor: pointer;
   z-index: 10 !important;
 }
