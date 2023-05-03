@@ -50,7 +50,7 @@ const OurNft = () => {
         ]
     };
     return (
-        <section className='py-5 mt-5 mt-sm-0 py-sm-3 position-relative'>
+        <section className='py-5 mt-sm-5 mt-sm-0 py-sm-3 position-relative'>
             <img onClick={() => first.current.slickPrev()} className='crusor_pointer prev_btn d-none d-md-flex' width={50} height={50} src={prevBtn} alt="prevBtn" />
             <img onClick={() => first.current.slickNext()} className='crusor_pointer next_btn d-none d-md-flex' width={50} height={50} src={nextBtn} alt="nextBtn" />
             <Container className='overflow-hidden'>

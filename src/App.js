@@ -9,6 +9,7 @@ import Story from "./components/Story";
 import OurNft from "./components/OurNft";
 import About from './components/About'
 import WatchVideo from './components/WatchVideo'
+import Faqs from "./components/Faqs";
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
       <About />
       <WatchVideo />
       <OurNft />
+      <Faqs/>
     </>
   );
 }

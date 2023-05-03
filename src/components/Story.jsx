@@ -1,13 +1,13 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import image from "../assets/img/png/image.png";
+import image from "../assets/img/svg/img_gif.gif";
 import leftPosition from "../assets/img/svg/leftPosition.svg";
 import rightPosition from "../assets/img/svg/rightPosition.svg";
 const Story = () => {
   return (
     <div
       id="down"
-      className="position-relative overflow-hidden z_3 py-5 my-5 py-sm-5 my-sm-5 py-lg-5"
+      className="position-relative z_3 py-5 my-5 py-sm-5 my-sm-5 py-lg-5"
     >
       <img
         className="position-absolute bottom-0 start-0 w_6 zn_1"
@@ -22,16 +22,16 @@ const Story = () => {
       <div className="blueBoxPosition position-absolute bottom-0 start-0 zn_1"></div>
       <div className="blueBoxPosition position-absolute top_10 end-0   zn_1"></div>
       <Container>
-        <Row className="align-items-center justify-content-center">
+        <Row className="align-items-center justify-content-center justify-content-sm-start">
           <Col className="my-3 my-lg-0" md={8} lg={6}>
-            <img className="w-100" src={image} alt="image" />
+            <img className="w-100 gif_img_border" src={image} alt="image" />
           </Col>
           <Col className="my-3 my-lg-0" lg={6}>
             <div className="ps-xl-5">
-              <h4 className="fs_md mb-0 ff_highspeed fw-normal text-white text-center text-lg-start">
+              <h4 className="fs_md mb-0 ff_highspeed fw-normal text-white text-center text-sm-start">
                 Story
               </h4>
-              <p className="ff_magra mb-0 text-white fw-normal fs_sm  mt-1 text-center text-lg-start">
+              <p className="ff_magra mb-0 text-white fw-normal fs_sm  mt-1 text-center text-sm-start">
                 Facilisi nec at ullamcorper consequat venenatis cursus sagittis.
                 Aliquet venenatis, urna egestas elementum ultricies convallis
                 amet. Cursus sed porta imperdiet tellus lorem nam leo.
