@@ -23,10 +23,10 @@ const Story = () => {
       <div className="blueBoxPosition position-absolute top_10 end-0   zn_1"></div>
       <Container>
         <Row className="align-items-center justify-content-center justify-content-sm-start">
-          <Col className="my-3 my-lg-0" md={8} lg={6}>
+          <Col className="my-3 my-lg-0" md={8} lg={6} data-aos="flip-left">
             <img className="w-100 gif_img_border" src={image} alt="image" />
           </Col>
-          <Col className="my-3 my-lg-0" lg={6}>
+          <Col className="my-3 my-lg-0" lg={6} data-aos="flip-right">
             <div className="ps-xl-5">
               <h4 className="fs_md mb-0 ff_highspeed fw-normal text-white text-center text-sm-start">
                 Story

@@ -54,10 +54,10 @@ const OurNft = () => {
             <img onClick={() => first.current.slickPrev()} className='crusor_pointer prev_btn d-none d-md-flex' width={50} height={50} src={prevBtn} alt="prevBtn" />
             <img onClick={() => first.current.slickNext()} className='crusor_pointer next_btn d-none d-md-flex' width={50} height={50} src={nextBtn} alt="nextBtn" />
             <Container className='overflow-hidden'>
-                <h5 className='text-white text-center fs_md fw-normal ff_highspeed pb-4'>our nft</h5>
+                <h5 className='text-white text-center fs_md fw-normal ff_highspeed pb-4 pt-xl-5'>our nft</h5>
                 <Row className=' align-items-end py-5 '>
 
-                    <Slider {...settings} ref={first} className='py-5 h_500 my-5 '>
+                    <Slider {...settings} ref={first} className='pt-5 py-xl-5 h_500 mt-5 py-xl-5 '>
                         <Col sm={4}>
                             <div className="our_nft_cards position-relative mx-3">
                                 <img className='position-absolute our_nft_img_1' src={sliderImg1} alt="sliderImg1" />

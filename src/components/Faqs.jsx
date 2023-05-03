@@ -9,12 +9,12 @@ import footerCircleImg from '../assets/img/svg/footer_circle.svg'
 import footerCircleImg2 from '../assets/img/svg/footer_circle_2.svg'
 const Faqs = () => {
     return (
-        <section className="py-5 faqs_bg_img position-relative">
+        <section className="py-5 faqs_bg_img position-relative z_2 mt-xl-5">
             <Container>
-                <h5 className='text-white text-center ff_highspeed fw-normal fs_md'>faqs</h5>
-                <div className="footer_position_box position-absolute"></div>
-                <img className='footer_positions_circle position-absolute' src={footerCircleImg} alt="footerCircleImg" />
-                <img className='footer_positions_circle position-absolute' src={footerCircleImg2} alt="footerCircleImg" />
+                <h5 className='text-white text-center ff_highspeed fw-normal fs_md pt-xl-5'>faqs</h5>
+                <div className="footer_position_box position-absolute zn_1"></div>
+                <img className='footer_positions_circle position-absolute w_6 zn_1' src={footerCircleImg} alt="footerCircleImg" />
+                <img className='footer_positions_circle position-absolute w_6 zn_1' src={footerCircleImg2} alt="footerCircleImg" />
                 <Accordion defaultActiveKey="0" className='mt-5'>
                     <Accordion.Item eventKey="0" className='py-2'>
                         <Accordion.Header className="ps-sm-3">
@@ -99,15 +99,15 @@ const Faqs = () => {
                 <div className="text-center d-flex flex-column align-items-center py-5 mt-5">
                     <img className='crusor_pointer' src={pageLogo} alt="pageLogo" />
                     <div className="d-flex mt-4">
-                        <a href="#"><img className=' footer_icons' src={twitter} alt="links" /></a>
-                        <a href="#" className='mx-3 footer_icons'><img src={instagram} alt="links" /></a>
-                        <a href="#"><img className=' footer_icons' src={discord} alt="links" /></a>
+                        <a href="#"><img className=' footer_icons' width={46} src={twitter} alt="links" /></a>
+                        <a href="#" className='mx-3 footer_icons'><img width={46} src={instagram} alt="links" /></a>
+                        <a href="#"><img className=' footer_icons' width={46} src={discord} alt="links" /></a>
                     </div>
                 </div>
             </Container>
             <div className="footer_hr w-100"></div>
             <Container>
-                <p className='text-center opacity-75 fs_16 ff_magra fw-normal mb-0 pt-4'>Copyright@Tempo.com</p>
+                <p className='text-center text_white fs_16 ff_magra fw-normal mb-0 pt-4'>Copyright@Tempo.com</p>
             </Container>
         </section>
     )

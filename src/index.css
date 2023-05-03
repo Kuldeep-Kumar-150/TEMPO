@@ -9,6 +9,7 @@
 :root {
   --fs-xsm: 20px;
   --fs-sm: 16px;
+  --fs-2sm: 18px;
   --fs-md: 29px;
   --fs-lg: 22px;
   --fs-xl: 16px;
@@ -20,6 +21,10 @@
 
 .fs_sm {
   font-size: var(--fs-sm);
+}
+
+.fs_2sm {
+  font-size: var(--fs-2sm);
 }
 
 .fs_md {
@@ -74,6 +79,10 @@
   height: 490px;
   border: 9.28px solid transparent;
   background: linear-gradient(black, black) padding-box, linear-gradient(90.44deg, #FBF4B7 -6.5%, #31CDE2 24.17%, #5276FF 57.63%, #D874FF 96.66%) border-box;
+}
+
+.text_white {
+  color: #B2B3B4;
 }
 
 .our_nft_img_1 {
@@ -288,9 +297,6 @@
   width: 200px;
 }
 
-h3 {
-  background-color: #31f4f4;
-}
 
 .prev_btn {
   position: absolute;
@@ -315,6 +321,29 @@ h3 {
   border-radius: 24px;
 }
 
+.cardBox {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0px 18.6028px 73.5254px rgba(134, 39, 255, 0.5);
+  backdrop-filter: blur(8.83492px);
+  border: 2.66px solid transparent;
+
+  background: linear-gradient(90.44deg,
+      #fbf4b7 -6.5%,
+      #31cde2 24.17%,
+      #5276ff 57.63%,
+      #d874ff 96.66%) padding-box,
+    linear-gradient(90.44deg,
+      #fbf4b7 -6.5%,
+      #31cde2 24.17%,
+      #5276ff 57.63%,
+      #d874ff 96.66%) border-box;
+
+  border-radius: 21.2603px;
+}
+
+.transform_x_50 {
+  transform: translateX(-50%);
+}
 
 /*************ACCORDION-START********************/
 .accordion-button:not(.collapsed) {
@@ -417,11 +446,13 @@ h3 {
   bottom: 0;
   left: 0;
 }
-.footer_positions_circle{
+
+.footer_positions_circle {
   bottom: 0;
   left: 0;
 }
-.footer_positions_circle2{
+
+.footer_positions_circle2 {
   bottom: 0;
   left: 0;
 }
@@ -442,6 +473,7 @@ h3 {
   :root {
     --fs-xsm: 20px;
     --fs-sm: 22px;
+    --fs-2sm: 22px;
     --fs-md: 35px;
     --fs-lg: 40px;
     --fs-xl: 25px;
@@ -463,6 +495,7 @@ h3 {
   :root {
     --fs-xsm: 20px;
     --fs-sm: 18px;
+    --fs-2sm: 24px;
     --fs-md: 49px;
     --fs-lg: 60px;
     --fs-xl: 30px;
@@ -487,6 +520,7 @@ h3 {
   :root {
     --fs-xsm: 20px;
     --fs-sm: 22px;
+    --fs-2sm: 26px;
     --fs-md: 49px;
     --fs-lg: 60px;
     --fs-xl: 30px;

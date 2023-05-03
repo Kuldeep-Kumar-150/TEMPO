@@ -6,7 +6,7 @@ import downBtn from "../assets/img/svg/downBtn.svg";
 
 const HeroSection = () => {
   return (
-    <div className="py-5 py-lg-5 position-relative z_4 d-flex flex-column align-items-center justify-content-center flex-grow-1">
+    <div className="py-5 py-lg-5 position-relative z_4 d-flex flex-column align-items-center justify-content-center flex-grow-1" data-aos="fade-right">
       <Container>
         <h1 className="mb-0 fs_lg fw-normal text-white ff_highspeed text-center mt-3 text-sm-start">
           Ornare orn<span className="d-block my-1">nulla <span className="text_gridient">sed turp</span>
