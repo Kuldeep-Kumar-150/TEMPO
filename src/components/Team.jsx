@@ -37,7 +37,7 @@ const Team = () => {
                 </h6>
               </div>
             </div>
-          </Col>{" "}
+          </Col>
           <Col className="my-2 my-lg-0" sm={6} lg={4}>
             <div className="cardBox position-relative ">
               <img className="w-100" src={image3} alt="image3" />
