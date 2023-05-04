@@ -16,6 +16,8 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import PreLoader from "./components/PreLoader";
 import BackToTop from "./components/BackToTop";
+import RoadMap from "./components//RoadMap";
+
 function App() {
   useEffect(() => {
     AOS.init({
@@ -36,6 +38,7 @@ function App() {
       <About />
       <WatchVideo />
       <OurNft />
+      <RoadMap />
       <Team />
       <Faqs />
     </>
