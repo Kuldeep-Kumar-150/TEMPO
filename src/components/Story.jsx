@@ -28,10 +28,10 @@ const Story = () => {
           </Col>
           <Col className="my-3 my-lg-0" lg={6} data-aos="flip-right">
             <div className="ps-xl-5">
-              <h4 className="fs_md mb-0 ff_highspeed fw-normal text-white text-center text-sm-start">
+              <h4 className="fs_md mb-0 ff_highspeed text_shadow   position-relative z_2 fw-normal text-white">
                 Story
               </h4>
-              <p className="ff_magra mb-0 text-white fw-normal fs_sm  mt-1 text-center text-sm-start">
+              <p className="ff_magra mb-0 text-white fw-normal fs_sm  mt-1">
                 Facilisi nec at ullamcorper consequat venenatis cursus sagittis.
                 Aliquet venenatis, urna egestas elementum ultricies convallis
                 amet. Cursus sed porta imperdiet tellus lorem nam leo.

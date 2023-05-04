@@ -5,15 +5,13 @@ import pageLogo from '../assets/img/svg/nav_logo.svg'
 import twitter from '../assets/img/svg/twitter.svg'
 import instagram from '../assets/img/svg/instagram.svg'
 import discord from '../assets/img/svg/discord.svg'
-import footerCircleImg from '../assets/img/svg/footer_circle.svg'
 import footerCircleImg2 from '../assets/img/svg/footer_circle_2.svg'
 const Faqs = () => {
     return (
         <section className="py-5 faqs_bg_img position-relative z_2 mt-xl-5">
             <Container>
-                <h5 className='text-white text-center ff_highspeed fw-normal fs_md pt-xl-5'>faqs</h5>
+                <h5 className='text-white text-center ff_highspeed fw-normal fs_md pt-xl-5 text_shadow'>faqs</h5>
                 <div className="footer_position_box position-absolute zn_1"></div>
-                {/* <img className='footer_positions_circle position-absolute w_6 zn_1' src={footerCircleImg} alt="footerCircleImg" /> */}
                 <img className='footer_positions_circle_3 position-absolute w_6 zn_1' src={footerCircleImg2} alt="footerCircleImg" />
                 <Accordion defaultActiveKey="0" className='mt-5'>
                     <Accordion.Item eventKey="0" className='py-2'>

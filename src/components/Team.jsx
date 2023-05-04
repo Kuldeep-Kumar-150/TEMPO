@@ -8,13 +8,13 @@ import rightPosition from "../assets/img/svg/rightPosition.svg";
 
 const Team = () => {
   return (
-    <section className="position-relative z_3">
+    <section className="position-relative z_3 pt-lg-5">
       <img className="position-absolute top-0 start-0 w_6 zn_1" src={leftPosition} alt="leftPosition" />
       <img className="position-absolute bottom-0 end-0 w_6 zn_1" src={rightPosition} alt="rightPosition" />
       <div className="blueBoxPosition position-absolute top-0 start-0 zn_1"></div>
       <div className="blueBoxPosition position-absolute bottom-0 end-0   zn_1"></div>
       <Container>
-        <h3 className="text-center text-white fw-normal ff_highspeed  pt-sm-5 fs_md">
+        <h3 className="text_shadow text-center text-white fw-normal ff_highspeed text_border1 position-relative z_2 pt-sm-5 fs_md">
           Team
         </h3>
         <Row className="py-5 justify-content-center">

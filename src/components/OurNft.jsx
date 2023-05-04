@@ -13,8 +13,8 @@ const OurNft = () => {
         arrows: false,
         infinite: true,
         speed: 500,
-        autoplay: true,
-        autoplaySpeed: 1000,
+        autoplay: false,
+        autoplaySpeed: 2000,
         slidesToShow: 3,
         slidesToScroll: 1,
         centerMode: true,
@@ -54,33 +54,30 @@ const OurNft = () => {
             <img onClick={() => first.current.slickPrev()} className='crusor_pointer prev_btn d-none d-md-flex' width={50} height={50} src={prevBtn} alt="prevBtn" />
             <img onClick={() => first.current.slickNext()} className='crusor_pointer next_btn d-none d-md-flex' width={50} height={50} src={nextBtn} alt="nextBtn" />
             <Container className='overflow-hidden'>
-                <h5 className='text-white text-center fs_md fw-normal ff_highspeed pb-4 pt-xl-5'>our nft</h5>
-                <Row className=' align-items-end py-5 '>
+                <h5 className='text-white text-center fs_md fw-normal ff_highspeed pb-5 pt-xl-5 text_shadow'>our nft</h5>
+                <Slider {...settings} ref={first} className='mt-5 pt-5'>
+                    <Col sm={4}>
+                        <div className="our_nft_cards mx-3 mt-5">
+                            <img className='w-100 slider_img_1' height={552} src={sliderImg1} alt="sliderimages" />
+                        </div>
+                    </Col>
+                    <Col sm={4}>
+                        <div className="our_nft_cards mx-3 mt-5">
+                            <img className='w-100 slider_img_2' height={552} src={sliderImg2} alt="sliderimages" />
+                        </div>
+                    </Col>
+                    <Col sm={4}>
+                        <div className="our_nft_cards mx-3 mt-5">
+                            <img className='w-100 slider_img_3' height={552} src={sliderImg3} alt="sliderimages" />
+                        </div>
+                    </Col>
+                    <Col sm={4}>
+                        <div className="our_nft_cards mx-3 mt-5">
+                            <img className='w-100 slider_img_2' height={552} src={sliderImg2} alt="sliderimages" />
+                        </div>
+                    </Col>
+                </Slider>
 
-                    <Slider {...settings} ref={first} className='pt-5 py-xl-5 h_500 mt-5 py-xl-5 '>
-                        <Col sm={4}>
-                            <div className="our_nft_cards position-relative mx-3">
-                                <img className='position-absolute our_nft_img_1' src={sliderImg1} alt="sliderImg1" />
-                            </div>
-                        </Col>
-                        <Col sm={4}>
-                            <div className="our_nft_cards position-relative mx-3">
-                                <img className='position-absolute our_nft_img_2' src={sliderImg2} alt="sliderImg2" />
-                            </div>
-                        </Col>
-                        <Col sm={4}>
-                            <div className="our_nft_cards position-relative mx-3">
-                                <img className='position-absolute our_nft_img_3' src={sliderImg3} alt="sliderImg3" />
-                            </div>
-                        </Col>
-                        <Col sm={4}>
-                            <div className="our_nft_cards position-relative mx-3">
-                                <img className='position-absolute our_nft_img_3' src={sliderImg3} alt="sliderImg3" />
-                            </div>
-                        </Col>
-                    </Slider>
-
-                </Row>
             </Container>
         </section>
     )
