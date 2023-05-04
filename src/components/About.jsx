@@ -4,7 +4,7 @@ import btnImg from '../assets/img/svg/mine_now_btn_img.svg'
 import sliderImgGroup from '../assets/img/webp/slider_img_group.webp'
 const About = () => {
     return (
-        <section className='py-sm-5 my-0 my-lg-5'>
+        <section className='py-sm-5 my-0 my-lg-5'id='about'>
             <Container className='py-lg-5'>
                 <Row className='flex-column-reverse flex-lg-row align-items-center'>
                     <Col lg={6} data-aos="flip-up">

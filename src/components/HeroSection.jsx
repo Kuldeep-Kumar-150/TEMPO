@@ -16,14 +16,14 @@ const HeroSection = () => {
           </span>
         </p>
         <div className="d-flex flex-column justify-content-center justify-content-sm-start  flex-sm-row  align-items-center">
-          <li className="mx-sm-4 position-relative curser z_3">
-            <button className="fs_xsm  text-white btnHover my-2 my-sm-0  text-uppercase ff_highspeed border-0 py-3 fw-normal bg-transparent">
+          <li className="mx-sm-4 position-relative  btnHover curser z_3">
+            <button className="fs_xsm  text-white  my-2 my-sm-0  text-uppercase ff_highspeed border-0 py-3 fw-normal bg-transparent">
               Get Started
             </button>
             <img className="positionBackground" src={btnBg2} alt="btnBg2" />
           </li>
-          <li className="ms-sm-5 position-relative curser z_3">
-            <button className="fs_xsm  text-white btnHover my-2 my-sm-0  text-uppercase ff_highspeed border-0 py-3 fw-normal bg-transparent">
+          <li className="ms-sm-5 position-relative btnHover curser z_3">
+            <button className="fs_xsm  text-white  my-2 my-sm-0  text-uppercase ff_highspeed border-0 py-3 fw-normal bg-transparent">
               Learn More
             </button>
             <img className="positionBackground" src={btnBg1} alt="btnBg1" />

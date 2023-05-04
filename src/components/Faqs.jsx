@@ -8,7 +8,7 @@ import discord from '../assets/img/svg/discord.svg'
 import footerCircleImg2 from '../assets/img/svg/footer_circle_2.svg'
 const Faqs = () => {
     return (
-        <section className="py-5 faqs_bg_img position-relative z_2 mt-xl-5">
+        <section className="py-5 faqs_bg_img position-relative z_2 mt-xl-5"id='faq'>
             <Container>
                 <h5 className='text-white text-center ff_highspeed fw-normal fs_md pt-xl-5 text_shadow'>faqs</h5>
                 <div className="footer_position_box position-absolute zn_1"></div>

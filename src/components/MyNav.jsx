@@ -45,7 +45,7 @@ const MyNav = () => {
             >
               <a
                 className="text-white fs_sm fw-normal ff_magra position-relative navLinks"
-                href="#"
+                href="#about"
               >
                 About Us
               </a>
@@ -56,7 +56,7 @@ const MyNav = () => {
             >
               <a
                 className="text-white fs_sm fw-normal ff_magra position-relative navLinks"
-                href="#"
+                href="#nft"
               >
                 NFTs
               </a>
@@ -67,7 +67,7 @@ const MyNav = () => {
             >
               <a
                 className="text-white fs_sm fw-normal ff_magra position-relative navLinks"
-                href="#"
+                href="#roadmap"
               >
                 Roadmap
               </a>
@@ -78,7 +78,7 @@ const MyNav = () => {
             >
               <a
                 className="text-white fs_sm fw-normal ff_magra position-relative navLinks"
-                href="#"
+                href="#team"
               >
                 Team
               </a>
@@ -89,7 +89,7 @@ const MyNav = () => {
             >
               <a
                 className="text-white fs_sm fw-normal ff_magra position-relative navLinks"
-                href="#"
+                href="#faq"
               >
                 FAQ
               </a>

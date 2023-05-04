@@ -185,62 +185,8 @@
   background-size: 100% 100%;
 }
 
-.box1 {
-  border: 3px solid transparent;
 
-  background: linear-gradient(90.44deg,
-      #fbf4b7 -6.5%,
-      #31cde2 24.17%,
-      #5276ff 57.63%,
-      #d874ff 96.66%) padding-box,
-    linear-gradient(90.44deg,
-      #fbf4b7 -6.5%,
-      #31cde2 24.17%,
-      #5276ff 57.63%,
-      #d874ff 96.66%) border-box;
 
-  transform: rotate(-90deg);
-  box-shadow: inset 0px 21px 83px rgba(134, 39, 255, 0.5);
-  backdrop-filter: blur(9.9734px);
-  border-radius: 24px;
-}
-
-.fs_40 {
-  font-size: 40px;
-}
-
-.fs_30 {
-  font-size: 30px;
-}
-
-.circle::after {
-  content: "";
-  position: absolute;
-  left: -8%;
-  top: 13%;
-  height: 10px;
-  width: 10px;
-  background-color: white;
-  border-radius: 50%;
-}
-
-.lineSet {
-  left: 10%;
-  top: 15%;
-  z-index: -1;
-}
-
-.lineSet3 {
-  left: 10%;
-  top: 20%;
-  z-index: -1;
-}
-
-.cardImageSet {
-  top: -48%;
-  left: 18%;
-  z-index: 1;
-}
 
 /* navBar */
 .menuitems {
@@ -382,6 +328,11 @@
   height: 200px;
   border-radius: 50%;
   width: 200px;
+}
+
+.cardShadow {
+  box-shadow: inset 0 2px 15px 0 #CAEAC1, 0 2px 15px 0 #D877FE;
+  padding: 31px;
 }
 
 .text_shadow {
@@ -581,12 +532,36 @@
   }
 }
 
+/**********************ROADMAP************************/
+.cardImageSet {
+  width: 60px;
+  height: 60px;
+  top: -12px;
+  left: 0;
+}
 
+.circle::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 13%;
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
 
+.q1_img {
+  rotate: 90deg;
+  width: 20%;
+  transform: translate(100%, -50%);
+}
 
-
-
-
+.q2_img {
+  rotate: 90deg;
+  width: 20%;
+  transform: translate(0%, -50%);
+}
 
 
 
@@ -599,6 +574,13 @@
     --fs-md: 35px;
     --fs-lg: 40px;
     --fs-xl: 25px;
+  }
+
+  .cardImageSet {
+    width: 60px;
+    height: 60px;
+    top: 0;
+    left: -30px;
   }
 }
 
@@ -636,6 +618,47 @@
     left: 50%;
     transform: translateX(-50%);
   }
+
+  .fs_40 {
+    font-size: 22px;
+  }
+
+  .fs_30 {
+    font-size: 16px;
+  }
+
+  .lineSet {
+    left: 10%;
+    top: 15%;
+    z-index: -1;
+  }
+
+  .lineSet1 {
+    left: 10%;
+    top: 10%;
+    z-index: -1;
+  }
+
+  .lineSet3 {
+    left: 10%;
+    top: 18%;
+    z-index: -1;
+  }
+
+  .q1_img {
+    all: unset;
+  }
+
+  .q2_img {
+    all: unset;
+  }
+
+  .cardImageSet {
+    top: -28%;
+    left: 18%;
+    width: 99px;
+    height: 110px;
+  }
 }
 
 @media (min-width:1200px) {
@@ -656,6 +679,21 @@
 
   .vh_xl_100 {
     min-height: 100vh;
+  }
+
+  .fs_40 {
+    font-size: 40px;
+  }
+
+  .fs_30 {
+    font-size: 30px;
+  }
+
+  .cardImageSet {
+    top: -23%;
+    left: 18%;
+    width: 99px;
+    height: 110px;
   }
 }
 
