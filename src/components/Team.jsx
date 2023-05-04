@@ -38,7 +38,7 @@ const Team = () => {
               </div>
             </div>
           </Col>
-          <Col className="my-2 my-lg-0" sm={6} lg={4}>
+          <Col className="my-2 my-lg-0 " sm={6} lg={4}>
             <div className="cardBox position-relative ">
               <img className="w-100" src={image3} alt="image3" />
               <div className="position-absolute bottom-0 mb-4 start-50 transform_x_50">
@@ -51,6 +51,7 @@ const Team = () => {
               </div>
             </div>
           </Col>
+          <div className="boxshadow"></div>
         </Row>
       </Container>
     </section>
