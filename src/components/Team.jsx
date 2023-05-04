@@ -8,7 +8,7 @@ import rightPosition from "../assets/img/svg/rightPosition.svg";
 
 const Team = () => {
   return (
-    <section className="position-relative z_3  pt-lg-0"id="team">
+    <section className="position-relative z_3 mt-5 mt-lg-0 pt-lg-0"id="team">
       <img className="position-absolute top-0 start-0 w_6 zn_1" src={leftPosition} alt="leftPosition" />
       <img className="position-absolute bottom-0 end-0 w_6 zn_1" src={rightPosition} alt="rightPosition" />
       <div className="blueBoxPosition position-absolute top-0 start-0 zn_1"></div>

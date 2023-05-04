@@ -15,7 +15,7 @@ const RoadMap = () => {
   return (
     <div className="roadmapIamge overflow-hidden" id="roadmap">
       <Container>
-        <h4 className="fs_md mb-0 ff_highspeed fw-normal text-center my-md-5 py-sm-5 text_shadow position-relative z_2 text-white">
+        <h4 className="fs_md mb-0 ff_highspeed fw-normal pt-5 pt-sm-0 text-center my-md-5 py-sm-5 text_shadow position-relative z_2 text-white">
           roadmap
         </h4>
         <Row className=" position-relative z_3">
