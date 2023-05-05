@@ -14,17 +14,17 @@ const OurNft = () => {
         infinite: true,
         speed: 500,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 1000,
         slidesToShow: 3,
         slidesToScroll: 1,
         centerMode: true,
-        centerPadding: 0,
+        centerPadding: -7,
         responsive: [
             {
                 breakpoint: 992,
                 settings: {
                     arrows: false,
-                    centerMode: true,
+                    centerMode: false,
                     slidesToShow: 2,
                     slidesToScroll: 1,
                     autoplay: true,
@@ -35,51 +35,56 @@ const OurNft = () => {
                 breakpoint: 768,
                 settings: {
                     arrows: false,
-                    centerMode: true,
-                    slidesToShow: 1,
+                    centerMode: false,
+                    autoplay: true,
+                    slidesToShow: 2,
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 576,
                 settings: {
                     arrows: false,
-                    centerMode: true,
-                    slidesToShow: 1
+                    centerMode: false,
+                    slidesToShow: 1,
+                    centerPadding: -19
                 }
             }
         ]
     };
     return (
         <section className='pt-5 mt-sm-5 mt-sm-0 py-sm-3 position-relative' id='nft'>
-            <img onClick={() => first.current.slickPrev()} className='crusor_pointer prev_btn d-none d-md-flex' width={50} height={50} src={prevBtn} alt="prevBtn" />
-            <img onClick={() => first.current.slickNext()} className='crusor_pointer next_btn d-none d-md-flex' width={50} height={50} src={nextBtn} alt="nextBtn" />
-            <Container className='overflow-hidden'>
-                <h5 className='text-white text-center fs_md fw-normal ff_highspeed pb-5 pt-xl-5 text_shadow overflow-hidden'>our nft</h5>
-                <Slider {...settings} ref={first} className='mt-5 pt-5'>
-                    <Col sm={4}>
-                        <div className="our_nft_cards cardShadow mx-3 mt-5">
-                            <img className='w-100 slider_img_1' height={552} src={sliderImg1} alt="sliderimages" />
+            <Container className='position-relative'>
+                <h5 className='text-white text-center fs_md fw-normal ff_highspeed pt-xl-5 text_shadow overflow-hidden'>our nft</h5>
+                <Slider {...settings} ref={first} className='overflow-hidden'>
+                    <Col lg={4} cl
+                    >
+                        <div className="slider_cards mx-auto">
+                            <img className="slider_img_1" src={sliderImg1} alt="man_img_1" />
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <div className="our_nft_cards cardShadow mx-3 mt-5">
-                            <img className='w-100 slider_img_2' height={552} src={sliderImg2} alt="sliderimages" />
+                    <Col lg={4} cl
+                    >
+                        <div className="slider_cards mx-auto">
+                            <img className="slider_img_1" src={sliderImg2} alt="man_img_1" />
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <div className="our_nft_cards cardShadow mx-3 mt-5">
-                            <img className='w-100 slider_img_3' height={552} src={sliderImg3} alt="sliderimages" />
+                    <Col lg={4} cl
+                    >
+                        <div className="slider_cards mx-auto">
+                            <img className="slider_img_2" src={sliderImg3} alt="man_img_1" />
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <div className="our_nft_cards cardShadow mx-3 mt-5">
-                            <img className='w-100 slider_img_2' height={552} src={sliderImg2} alt="sliderimages" />
+                    <Col lg={4} cl
+                    >
+                        <div className="slider_cards mx-auto">
+                            <img className="slider_img_2" src={sliderImg3} alt="man_img_1" />
                         </div>
                     </Col>
                 </Slider>
-
-            </Container>
-        </section>
+                <img onClick={() => first.current.slickPrev()} className='crusor_pointer prev_btn d-none d-md-flex' width={50} height={50} src={prevBtn} alt="prevBtn" />
+                <img onClick={() => first.current.slickNext()} className='crusor_pointer next_btn d-none d-md-flex' width={50} height={50} src={nextBtn} alt="nextBtn" />
+            </Container >
+        </section >
     )
 }
 

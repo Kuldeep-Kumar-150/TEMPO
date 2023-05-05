@@ -1,9 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import line from "../assets/img/svg/line.svg";
-import q1 from "../assets/img/svg/q1.svg";
-import q2 from "../assets/img/svg/q2.svg";
-import q3 from "../assets/img/svg/q3.svg";
 import img1 from "../assets/img/svg/img1.svg";
 import img2 from "../assets/img/svg/img2.svg";
 import img3 from "../assets/img/svg/img3.svg";
@@ -18,10 +15,10 @@ const RoadMap = () => {
         <h4 className="fs_md mb-0 ff_highspeed fw-normal pt-5 pt-sm-0 text-center my-md-5 py-sm-5 text_shadow position-relative z_2 text-white">
           roadmap
         </h4>
-        <Row className=" position-relative z_3">
+        <Row className="position-relative z_3">
           <img className="position-absolute  lineSet1 d-none d-lg-block" src={line} alt="line" />
           <Col lg={2}>
-            <img className="q2_img" src={q1} alt="q1" />
+            <h1 className="fs_40 fw-normal ff_highspeed text-white q1_bg py-2 mt-5 py-md-3 py-lg-4 text-center d-flex align-items-center justify-content-center"><span className="q1_text">Q1</span></h1>
           </Col>
           <Col className="pb-lg-5" lg={10}>
             <Row className="justify-content-between py-lg-5">
@@ -89,7 +86,7 @@ const RoadMap = () => {
         <Row className=" position-relative z_3">
           <img className="position-absolute  lineSet d-none d-lg-block" src={line} alt="line" />
           <Col lg={2}>
-            <img className="q2_img" src={q2} alt="q2" />
+            <h1 className="fs_40 fw-normal ff_highspeed text-white q1_bg py-2 mt-5 py-md-3 py-lg-4 text-center d-flex align-items-center justify-content-center"><span className="q1_text">Q2</span></h1>
           </Col>
           <Col className="mt-lg-4 pt-lg-5" lg={10}>
             <Row className="justify-content-between">
@@ -159,7 +156,7 @@ const RoadMap = () => {
         <Row className="py-5 pt-lg-3 pb-lg-0  position-relative z_3">
           <img className="position-absolute  lineSet3 d-none  d-lg-block" src={line} alt="line" />
           <Col lg={2}>
-            <img className="q2_img" src={q3} alt="q3" />
+            <h1 className="fs_40 fw-normal ff_highspeed text-white q1_bg py-2 py-md-3 py-lg-4 q3_bg text-center d-flex align-items-center justify-content-center"><span className="q1_text">Q3</span></h1>
           </Col>
           <Col className="py-lg-5 my-xl-5" lg={10}>
             <Row className="justify-content-between">

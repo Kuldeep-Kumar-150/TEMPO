@@ -28,7 +28,7 @@ function App() {
   }, [])
   return (
     <>
-      {/* <PreLoader /> */}
+      <PreLoader />
       <BackToTop />
       <div className="BgImage d-flex flex-column vh_xl_100">
         <MyNav />
