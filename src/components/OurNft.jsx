@@ -27,7 +27,7 @@ const OurNft = () => {
                     centerMode: false,
                     slidesToShow: 2,
                     slidesToScroll: 1,
-                    autoplay: true,
+                    autoplay: false,
                     autoplaySpeed: 800,
                 }
             },
@@ -37,7 +37,8 @@ const OurNft = () => {
                     arrows: false,
                     centerMode: false,
                     autoplay: true,
-                    slidesToShow: 2,
+                    slidesToShow: 1,
+                    dots:true
                 }
             },
             {
@@ -46,6 +47,7 @@ const OurNft = () => {
                     arrows: false,
                     centerMode: false,
                     slidesToShow: 1,
+                    dots: true,
                     centerPadding: -19
                 }
             }
